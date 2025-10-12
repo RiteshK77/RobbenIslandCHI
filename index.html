@@ -38,6 +38,17 @@
                 </div>
             </div>
         </nav>
+        <!--JS for scroll nav-->
+         <script>
+            window.addEventListener("scroll", function (){
+                const navbar = document.getElementById("mainNav");
+                if(window.scrollY > 50) {
+                    navbar.classList.add("navbar-scrolled");
+                } else {
+                    navbar.classList.remove("navbar-scrolled");
+                }
+            });
+        </script>
          <!-- Masthead-->
         <header class="masthead" style="background-image: url(images/fauna.jpg)">
             <div class="container">
@@ -62,25 +73,31 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
+                        <a href="audience.html">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-book fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Education</h4>
+                    </a>
                     </div>
                     <div class="col-md-4">
+                        <a href="deliverables.html">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-compass fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Advocate</h4>
+                    </a>
                     </div>
                     <div class="col-md-4">
+                        <a href="data.html">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-circle fa-stack-2x text-primary"></i>
                             <i class="fas fa-hands-helping fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Support</h4>
+                    </a>
                     </div>
                 </div>
             </div>

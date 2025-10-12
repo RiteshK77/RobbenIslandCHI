@@ -10942,6 +10942,10 @@ p {
     margin-right: 0;
   }
 }
+.navbar-scrolled {
+  background-color: #002147 !important;
+}
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
